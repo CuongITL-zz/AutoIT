@@ -32,7 +32,6 @@ If $iMatch <> -1 then
     _ArrayDelete($aCompare1 , $iMatch)
 EndIf
 Next
-MsgBox(0, "Hello", "Hello Dien cui bap!")
 _ArrayDisplay ($aBoth, "In Both")
 _ArrayDisplay ($aCompare1, "Only in Compare 1")
 _ArrayDisplay ($aCompare2, "Only in Compare 2")
